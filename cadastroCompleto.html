@@ -1,0 +1,32 @@
+<!--Página referente a confirmação de cadastro-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estiloCompleto.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="pdivisao">
+        <h1>Loja de Empréstimos</h1>
+    </div>
+    <section>
+        <img src="Imagens/sinal-check.png">
+        <p class="parag">
+            Cadastro realizado com sucesso! 
+        </p>
+        <!--Botão para voltar para a página de login-->
+        <button class="botao" onclick="abrirLogin()">Voltar</button>
+    </section>
+    <footer>
+        <p>&copy; Murilo Bianco</p>
+    </footer>
+    <!--O script redireciona para a página de login para que o usuário possa realizar esse login-->
+    <script type="text/javascript">
+        function abrirLogin(){
+            window.location.href = 'login.php';
+        }
+    </script>
+</body>
+</html>

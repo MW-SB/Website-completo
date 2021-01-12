@@ -1,0 +1,46 @@
+body{
+    background: rgb(219, 219, 219);
+}
+
+div#pdivisao{
+    background: white;
+    height: 100px;
+    width: 95%;
+    border: 5px ridge black;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+h1{
+    font: normal 35pt Comic Sans MS;
+    text-align: center;
+    margin-left: 20px;
+}
+
+section{
+    font: normal 11pt Comic Sans MS;
+    background: white;
+    border-radius: 10px;
+    border: 2px ridge black;
+    padding: 15px;
+    width: 300px;
+    margin-top: 40px;
+    margin-left: 620px;
+    text-align: left;
+}
+
+a{
+    font: normal 11pt Comic Sans MS;
+    color: black;
+    text-align: center;  
+}
+
+.sDiv{
+    font: normal 14pt Comic Sans MS;
+    color: red;
+}
+
+footer{
+    text-align: center;
+    font-style: italic;
+}

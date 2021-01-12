@@ -1,0 +1,49 @@
+body{
+    background: rgb(219, 219, 219);
+    margin-top: 100px; 
+} 
+
+div#pdivisao{
+    background: white;
+    height: 100px;
+    width: 95%;
+    border: 5px ridge black;
+    margin-left: 25px;
+    margin-top: -90px;
+    margin-bottom: 70px;
+}
+
+h1{
+    font: normal 35pt Comic Sans MS;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.sDiv{
+    font: normal 10pt Comic Sans MS;
+    background: white;
+    border-radius: 10px;
+    border: black;
+    padding: 15px;
+    width: 300px;
+    margin: auto;
+    text-align: center; 
+}
+
+.tDiv{
+    font: normal 10pt Comic Sans MS;
+    text-align: center;
+    color: red;   
+}
+
+a{
+    font: normal 10pt Comic Sans MS;
+    color: black;
+    text-decoration: black;
+}
+
+footer{
+    font: normal 10pt Comic Sans MS;
+    text-align: center;
+    font-style: italic;
+}
